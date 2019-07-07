@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Image Filter 1.0</title>
+
+<script src="https://www.dukelearntoprogram.com/course1/common/js/image/SimpleImage.js"></script>
+<link rel="stylesheet" type="text/css" href="css/index.css">
+<link rel="stylesheet" type="text/css" href="css/materialize.css">
+</head>
+<body>
+  <div class="banner">
+    
+
+    
+    <div class="container-fluid">
+    <div class="row">
+      <div class="col s4 m4 l4"></div>
+      <div class="col s4 m4 l4" id="h3" align="center">
+        <h1>Basic Filter</h1>
+<canvas id="canvas">
+  
+</canvas>
+
+             <h4 class="a2">Chose The Image File</h4>
+             <input id="finput" type="file" multiple="false" accept="image/*" onchange="upload()">
+             <h4 class="a2">Chose The Filter</h4>
+             <div class="a1">
+             <input id="btn0" type="button" value="Greyscale " onclick="dogrey()">
+             <input id="btn1" type="button" value="Red" onclick="dored()">
+             <input id="btn2" type="button" value="Rainbow" onclick="dorain()">
+             <input id="btn3" type="button" value="Blur" onclick="doblur()">
+      </div>
+      <p>
+      <input id="btn4" type="button" value="Reset" onclick="reset()" id="l2">
+      
+      </p>
+      <div class="col s4 m4 l4"></div>
+    </div>
+  </div>
+</div>
+</body>
+<script type="text/javascript" src="js/index.js"></script>
+<script src="js/jquery-3.3.1.js"></script>
+<script src="js/materialize.js"></script>
+</html>
